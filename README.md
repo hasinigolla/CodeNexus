@@ -89,6 +89,44 @@ CodeNexus
 
 ---
 
+# 📸 Screenshots
+
+## 🏠 Home Page
+
+![Home](assets/screenshots/home.png)
+
+---
+
+## 🔐 Login Page
+
+![Login](assets/screenshots/login.png)
+
+---
+
+## 📊 Dashboard
+
+![Dashboard](assets/screenshots/dashboard.png)
+
+---
+
+## 🤖 AI Code Generation
+
+![Code Generation](assets/screenshots/codegen.png)
+
+---
+
+## 🔍 AI Code Review
+
+![Code Review](assets/screenshots/codereview.png)
+
+---
+
+## 📈 Analytics Dashboard
+
+![Analytics](assets/screenshots/analytics.png)
+
+---
+
 # 🚀 Getting Started
 
 ## Clone Repository
