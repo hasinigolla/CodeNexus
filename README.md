@@ -235,87 +235,6 @@ CodeNexus
 
 ---
 
-# 🚀 Getting Started
-
-## Clone Repository
-
-```bash
-git clone https://github.com/hasinigolla/CodeNexus.git
-
-cd CodeNexus
-```
-
----
-
-## Backend Setup
-
-```bash
-cd backend
-
-pip install -r requirements.txt
-```
-
-Create a `.env` file inside the `backend` folder.
-
-Example:
-
-```env
-GEMINI_API_KEY=your_api_key
-
-MONGO_URL=your_mongodb_connection_string
-
-REDIS_HOST=localhost
-
-REDIS_PORT=6379
-```
-
----
-
-## Frontend Setup
-
-```bash
-cd frontend
-
-npm install
-
-npm run dev
-```
-
----
-
-# 🐳 Docker Deployment
-
-Run the complete application:
-
-```bash
-docker compose up --build
-```
-
----
-
-## Frontend
-
-```
-http://localhost:5173
-```
-
----
-
-## Backend
-
-```
-http://localhost:8000
-```
-
----
-
-## API Documentation
-
-```
-http://localhost:8000/docs
-```
-
----
 
 # 📈 Future Enhancements
 
@@ -332,51 +251,8 @@ http://localhost:8000/docs
 
 ---
 
-# 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork the repository
-
-2. Create a feature branch
-
-```bash
-git checkout -b feature-name
-```
-
-3. Commit changes
-
-```bash
-git commit -m "Add feature"
-```
-
-4. Push
-
-```bash
-git push origin feature-name
-```
-
-5. Open a Pull Request
-
----
-
-# 👨‍💻 Author
-
-## Hasini Golla
-
-Computer Science Engineering Student
-
-Full Stack Developer • AI Enthusiast • Competitive Programmer
-
-GitHub:
-
-https://github.com/hasinigolla
-
----
-
 <div align="center">
 
-## ⭐ If you found this project useful, please give it a Star!
 
 Made with ❤️ by Hasini Golla
 
