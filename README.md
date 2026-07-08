@@ -108,13 +108,13 @@ Designed with scalability in mind, CodeNexus uses Docker, Redis caching, MongoDB
 
 ## 🏠 Home
 
-![](assets/screenshots/home.png)
+![](assets/screenshots/home1.png)
 
 ---
 
 ## 🔐 Login
 
-![](assets/screenshots/login.png)
+![](assets/screenshots/signin.png)
 
 ---
 
@@ -138,7 +138,7 @@ Designed with scalability in mind, CodeNexus uses Docker, Redis caching, MongoDB
 
 ## 📈 Analytics Dashboard
 
-![](assets/screenshots/analytics.png)
+![](assets/screenshots/codeanalyze.png)
 
 ---
 
