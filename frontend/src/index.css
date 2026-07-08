@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: saddlebrown !important;
+  color: white;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: saddlebrown !important;
+}
+
+* {
+  box-sizing: border-box;
+}
