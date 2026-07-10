@@ -13,7 +13,7 @@ export default function ForgotPassword(){
 
         e.preventDefault();
 
-        const response=await fetch("https://codenexus-production-ee84.up.railway.app//verify-user",{
+        const response=await fetch("https://codenexus-production-ee84.up.railway.app/verify-user",{
 
             method:"POST",
 
