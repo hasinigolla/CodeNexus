@@ -12,7 +12,7 @@ function Profile() {
   const updateProfile = async () => {
     try {
       const response = await fetch(
-        "https://codenexus-production-ee84.up.railway.app//update-profile",
+        "https://codenexus-production-ee84.up.railway.app/update-profile",
         {
           method: "POST",
           headers: {

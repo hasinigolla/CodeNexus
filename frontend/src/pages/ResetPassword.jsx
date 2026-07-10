@@ -35,7 +35,7 @@ const changePassword=async(e)=>{
 
 }
 
-const response=await fetch("https://codenexus-production-ee84.up.railway.app//reset-password",{
+const response=await fetch("https://codenexus-production-ee84.up.railway.app/reset-password",{
 
         method:"POST",
 
