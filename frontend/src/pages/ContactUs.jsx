@@ -22,7 +22,7 @@ function ContactUs() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:8000/contact", {
+      const response = await fetch("https://codenexus-production-ee84.up.railway.app//contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -52,7 +52,7 @@ function ContactUs() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:8000/feedback", {
+      const response = await fetch("https://codenexus-production-ee84.up.railway.app//feedback", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

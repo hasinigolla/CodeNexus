@@ -21,7 +21,7 @@ function CodeReview() {
   setLoading(true);
 
   try {
-    const res = await fetch("http://localhost:8000/review-code", {
+    const res = await fetch("https://codenexus-production-ee84.up.railway.app//review-code", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

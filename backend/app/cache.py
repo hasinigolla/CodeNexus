@@ -3,18 +3,24 @@ import json
 import hashlib
 import os
 
-REDIS_HOST = os.getenv("REDIS_HOST", "localhost")
-REDIS_PORT = int(os.getenv("REDIS_PORT", 6379))
-REDIS_PASSWORD = os.getenv("REDIS_PASSWORD")
-
+#REDIS_HOST = os.getenv("REDIS_HOST", "localhost")
+#REDIS_PORT = int(os.getenv("REDIS_PORT", 6379))
+#REDIS_PASSWORD = os.getenv("REDIS_PASSWORD")
 # Enable SSL only for Upstash
-USE_SSL = REDIS_HOST != "redis"
+#USE_SSL = REDIS_HOST != "redis"
 
-r = redis.Redis(
-    host=REDIS_HOST,
-    port=REDIS_PORT,
-    password=REDIS_PASSWORD,
-    ssl=USE_SSL,
+#r = redis.Redis(
+    #host=REDIS_HOST,
+    #port=REDIS_PORT,
+    #password=REDIS_PASSWORD,
+    #ssl=USE_SSL,
+    #decode_responses=True
+#)
+
+REDIS_URL = os.getenv("REDIS_URL")
+
+r = redis.from_url(
+    REDIS_URL,
     decode_responses=True
 )
 
