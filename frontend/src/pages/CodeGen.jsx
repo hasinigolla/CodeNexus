@@ -36,7 +36,7 @@ function CodeGen() {
     setCustomOutput("");
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/solve", {
+      const response = await fetch("https://codenexus-production-ee84.up.railway.app/solve", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -71,7 +71,7 @@ function CodeGen() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/generate-testcases",
+        "https://codenexus-production-ee84.up.railway.app/generate-testcases",
         {
           method: "POST",
           headers: {
@@ -198,7 +198,7 @@ const runWithCustomInput = async () => {
   setCustomOutput("");
 
   try {
-    const response = await fetch("http://127.0.0.1:8000/run-with-input", {
+    const response = await fetch("https://codenexus-production-ee84.up.railway.app/run-with-input", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

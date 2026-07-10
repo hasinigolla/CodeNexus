@@ -17,7 +17,7 @@ function CodeAnalyze() {
 
   const fetchAnalytics = () => {
 
-    fetch("http://127.0.0.1:8000/analytics")
+    fetch("https://codenexus-production-ee84.up.railway.app/analytics")
 
         .then((res) => res.json())
 
@@ -194,7 +194,7 @@ function CodeAnalyze() {
           </p>
 
           <a
-              href="http://127.0.0.1:8000/analytics/export"
+              href="https://codenexus-production-ee84.up.railway.app/analytics/export"
               className="
                   px-10
                   py-4
